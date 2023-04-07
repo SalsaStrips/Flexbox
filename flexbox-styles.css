@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #4b0082;
+}
+
+div {
+	margin: 8px;
+	padding: 8px;
+	border: 1px solid lightgrey;
+}
+
+.fullwidth {
+	flex-basis: 100%;
+}
+
+.halfwidth {
+	flex-basis: 45%;
+	}
+
+.pagewrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #6a5acd;
+}
+
+.purplebox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	background-color: #dda0dd;
+}
+
+.pinkbox {
+	display: flex;
+	flex-grow: 1;
+	background-color: aliceblue;
+	justify-content: center;
+	align-items: center;
+}
